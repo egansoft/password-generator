@@ -1,0 +1,46 @@
+a {
+	text-decoration:none;
+}
+
+body {
+	font-family:"Trebuchet MS", Arial, sans-serif;
+}
+
+h1 {
+	border-bottom:1px solid #ccc;
+}
+
+#footer {
+	border-top:1px solid #999;
+	margin-top:20px;
+}
+
+#footerText {
+	float:left;
+	padding-top:10px;
+}
+
+#footerText p {
+	margin:5px 0 0 0;
+}
+
+#logo {
+	float:left;
+	margin:20px 15px 0 20px;
+}
+
+#pwd {
+	text-align:center;
+	background-color:#eee;
+	border:1px solid #ccc;
+	padding:5px;
+}
+
+#settings p {
+	margin:10px 0 0 0;
+}
+
+#wrap {
+	width:900px;
+	margin:0 auto;
+}
