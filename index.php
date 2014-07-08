@@ -14,9 +14,9 @@ else {
 
 $dAmt = isset($_POST["amt"])?$_POST["amt"]:4;
 $dSep = isset($_POST["sep"])?$_POST["sep"]:0;
-$dNum = isset($_POST["dNum"]);
-$dSym = isset($_POST["dSym"]);;
-$dUp = isset($_POST["dUp"]);;
+$dNum = isset($_POST["num"]);
+$dSym = isset($_POST["sym"]);
+$dUp = isset($_POST["up"]);
 
 ?>
 <!DOCTYPE html>
@@ -51,9 +51,9 @@ $dUp = isset($_POST["dUp"]);;
 				</p>
 				<p><label for="num"><input type="checkbox" name="num" <?php if($dNum) echo 'checked="checked"'; ?> />
 					Include number at end</label></p>
-				<p><label for="sym"><input type="checkbox" name="sym" />
+				<p><label for="sym"><input type="checkbox" name="sym" <?php if($dSym) echo 'checked="checked"'; ?> />
 					Include symbol at end</label></p>
-				<p><label for="up"><input type="checkbox" name="up" />
+				<p><label for="up"><input type="checkbox" name="up" <?php if($dUp) echo 'checked="checked"'; ?> />
 					Start with an uppercase letter</label></p>
 				<input type="submit" name="submit" value="Generate" />
 			</form>
