@@ -1,7 +1,7 @@
 # Nicholas Egan P1: xkcd Password Generator
 
 ## Live URL
-<http://www.egansoft.com/password>
+<http://www.egansoft.com/password>    
 <http://password-egansoft.rhcloud.com/index.php>
 
 ## Description
